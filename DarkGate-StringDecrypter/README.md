@@ -7,6 +7,7 @@ This IDA Python Script was written to assist in decrypting strings found in the 
 To run the script, follow these steps: 
 
 - Label the Custom base64 deocding function as _"decode_custom_base64_wrap"_
+- Modify the Base64 character set in the script to match sample you are analyzing
 - Label the Decryption function as _"decrypt"_
 - File -> Script File...
 - Select the python file
