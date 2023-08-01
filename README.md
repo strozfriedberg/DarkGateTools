@@ -4,5 +4,5 @@ Programs to decrypt DarkGate Strings in IDA Python and decrypt keylog files. The
 ## KeyLog Decrypter
 This Delphi program uses the DCPCrypt Library to decrypt the keylog files created by the DarkGate malware. 
 
-## String Decyrpter
+## String Decrypter
 The IDA Python script can be used to decyrpt the encrypted strings found in the DarkGate malware. 
