@@ -1,7 +1,7 @@
 # DarkGate String Decrypter
 ## _IDA Python script for decoding DarkGate strings_
 
-This IDA Python Script was written to assist in decrypting strings found in the DarkGate payload. The script leverages some [helper functions](https://gist.github.com/OALabs/04ef6b2d6203d162c5b3b0eefd49530c ) from OALabs for extracting information from registers and setting comments. The blog associated with this script can be found: https://www.aon.com/cyber-solutions/aon_cyber_labs/
+This IDA Python Script was written to assist in decrypting strings found in the DarkGate payload. The script leverages some [helper functions](https://gist.github.com/OALabs/04ef6b2d6203d162c5b3b0eefd49530c ) from OALabs for extracting information from registers and setting comments. The blog associated with this script can be found: https://www.aon.com/cyber-solutions/aon_cyber_labs/darkgate-keylogger-analysis-masterofnone/
 
 ## Instructions
 To run the script, follow these steps: 
