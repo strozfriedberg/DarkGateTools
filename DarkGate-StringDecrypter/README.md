@@ -15,8 +15,9 @@ To run the script, follow these steps:
 ### Locating custom Base64 wrapper function and decrypt function
 The _"decrypt"_ and  _"decode_custom_base64_wrap"_ functions can be found via looking the decryption of the strings. When decrypting the encrypted strings, the malware moves the address of the encrypted and encoded string into the EAX register before calling a function that uses the custom Base64 alphabet. This MOV and CALL can be seen at 0x469B1C and 0x469B2C below. 
 
-![image](https://github.com/strozfriedberg/DarkGateTools/assets/123113960/dddb25e4-6c0d-46ba-b2de-f343a07fd56e)
+The call to _"decrypt"_ is at 0x469B21 below. The call to _"decode_custom_base64_wrap"_ is at 0x469B31 below. 
 
+![image](https://github.com/strozfriedberg/DarkGateTools/assets/123113960/0f90d659-0f02-4cd5-a8e5-ef8305efed5c)
 
 ## References
 
