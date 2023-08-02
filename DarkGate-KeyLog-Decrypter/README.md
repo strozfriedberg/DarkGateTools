@@ -11,3 +11,6 @@ To compile the script:
 - Download and install Lazarus
 - Download and install the DCPCrypt library
 - Open the file in Lazarus and compile using default paramters
+
+## Initial Alpha Release
+https://github.com/strozfriedberg/DarkGateTools/releases/tag/0.1.0-alpha
